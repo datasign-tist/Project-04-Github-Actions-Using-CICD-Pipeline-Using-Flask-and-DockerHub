@@ -55,7 +55,7 @@ python app.py
 Now your app should be running on:
 
 ```
-http://0.0.0.0:8080/
+http://0.0.0.0:5000/
 ```
 
 ---
