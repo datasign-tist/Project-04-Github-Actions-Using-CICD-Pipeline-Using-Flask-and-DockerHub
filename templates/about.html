@@ -1,8 +1,14 @@
-{% extends "base.html" %}
-
-{% block title %}About{% endblock %}
-
-{% block content %}
-<h1 class="text-success">About This App</h1>
-<p>This is a clean and modern Flask starter app, ready to scale!</p>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>About This App</h1>
+        <p>This app greets users depending on their name. If your name starts with A or a, you get a special greeting: "Hello World!".</p>
+    </div>
+</body>
+</html>
